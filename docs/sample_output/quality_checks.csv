@@ -1,0 +1,11 @@
+check,status,detail
+raw_sessions: one row per key,PASS,"115,914 rows read, 0 duplicate keys, 115,914 rows stored"
+raw_orders: one row per key,PASS,"6,693 rows read, 0 duplicate keys, 6,693 rows stored"
+raw_ad_spend: one row per key,PASS,"927 rows read, 27 duplicate keys, 900 rows stored"
+Every order has a conversion path,PASS,"6,693 orders, 6,693 paths"
+Spend reconciles raw → mart,PASS,"raw ₹1,896,769.58, mart ₹1,896,769.58"
+No unmapped sessions,WARN,300 sessions unmapped (e.g. test_campaign_do_not_use)
+No unmapped spend,PASS,₹0.00 unmapped
+Credits sum to 1 per conversion,PASS,6 models checked
+All models reconcile to total orders & revenue,PASS,"7 models vs 6,693 orders / ₹6,455,579"
+Session dates converted to IST,PASS,first IST date 2026-07-01

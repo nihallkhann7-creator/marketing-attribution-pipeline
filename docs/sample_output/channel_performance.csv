@@ -1,0 +1,85 @@
+model,channel,spend,orders,new_customers,revenue,cac,roas
+first_touch,Google Search Generic,571349.16,1023.0,1023.0,994236.0,558.5,1.74
+first_touch,Meta Prospecting,309559.21,1296.0,1296.0,1242830.0,238.86,4.01
+first_touch,Google PMax,280768.34,649.0,649.0,611014.0,432.62,2.18
+first_touch,Google Search Brand,251053.56,579.0,509.0,561821.0,493.23,2.24
+first_touch,Meta Retargeting,237058.16,203.0,151.0,209457.0,1569.92,0.88
+first_touch,Apple Search Ads,175834.75,332.0,332.0,317710.0,529.62,1.81
+first_touch,Affiliate,71146.4,454.0,454.0,425352.0,156.71,5.98
+first_touch,Organic Search,0.0,862.0,846.0,826064.0,,
+first_touch,Direct,0.0,649.0,537.0,636926.0,,
+first_touch,Email,0.0,352.0,222.0,361622.0,,
+first_touch,Referral,0.0,278.0,278.0,254599.0,,
+first_touch,Unmapped,0.0,16.0,16.0,13948.0,,
+last_non_direct,Google Search Generic,571349.16,503.0,503.0,491178.0,1135.88,0.86
+last_non_direct,Meta Prospecting,309559.21,276.0,276.0,270268.0,1121.59,0.87
+last_non_direct,Google PMax,280768.34,507.0,507.0,481060.0,553.78,1.71
+last_non_direct,Google Search Brand,251053.56,1819.0,1734.0,1746861.0,144.78,6.96
+last_non_direct,Meta Retargeting,237058.16,1225.0,1163.0,1203021.0,203.83,5.07
+last_non_direct,Apple Search Ads,175834.75,262.0,262.0,248398.0,671.12,1.41
+last_non_direct,Affiliate,71146.4,249.0,249.0,226308.0,285.73,3.18
+last_non_direct,Email,0.0,889.0,738.0,880483.0,,
+last_non_direct,Organic Search,0.0,576.0,559.0,542784.0,,
+last_non_direct,Direct,0.0,289.0,225.0,279368.0,,
+last_non_direct,Referral,0.0,78.0,78.0,68660.0,,
+last_non_direct,Unmapped,0.0,20.0,19.0,17190.0,,
+last_touch,Google Search Generic,571349.16,396.0,396.0,378977.0,1442.8,0.66
+last_touch,Meta Prospecting,309559.21,159.0,159.0,152646.0,1946.91,0.49
+last_touch,Google PMax,280768.34,416.0,416.0,391005.0,674.92,1.39
+last_touch,Google Search Brand,251053.56,1669.0,1592.0,1606597.0,157.7,6.4
+last_touch,Meta Retargeting,237058.16,1107.0,1053.0,1081296.0,225.13,4.56
+last_touch,Apple Search Ads,175834.75,227.0,227.0,212695.0,774.6,1.21
+last_touch,Affiliate,71146.4,222.0,222.0,202586.0,320.48,2.85
+last_touch,Direct,0.0,1164.0,1060.0,1125215.0,,
+last_touch,Email,0.0,793.0,665.0,792814.0,,
+last_touch,Organic Search,0.0,459.0,443.0,439339.0,,
+last_touch,Referral,0.0,62.0,62.0,55974.0,,
+last_touch,Unmapped,0.0,19.0,18.0,16435.0,,
+linear,Google Search Generic,571349.16,659.3,659.3,635695.57,866.6,1.11
+linear,Meta Prospecting,309559.21,605.64,605.64,577956.17,511.13,1.87
+linear,Google PMax,280768.34,534.29,534.29,506910.37,525.5,1.81
+linear,Google Search Brand,251053.56,1146.4,1074.4,1109280.86,233.67,4.42
+linear,Meta Retargeting,237058.16,742.65,689.32,729244.18,343.9,3.08
+linear,Apple Search Ads,175834.75,274.93,274.93,260898.72,639.55,1.48
+linear,Affiliate,71146.4,305.02,305.02,282384.5,233.25,3.97
+linear,Direct,0.0,976.19,868.86,949286.38,,
+linear,Email,0.0,630.94,499.61,630160.89,,
+linear,Organic Search,0.0,658.34,642.68,628426.49,,
+linear,Referral,0.0,140.8,140.8,129029.38,,
+linear,Unmapped,0.0,18.48,18.15,16305.49,,
+markov,Google Search Generic,571349.16,617.29,593.13,595396.13,963.28,1.04
+markov,Meta Prospecting,309559.21,620.02,590.35,598024.96,524.37,1.93
+markov,Google PMax,280768.34,536.55,517.11,517514.35,542.96,1.84
+markov,Google Search Brand,251053.56,1114.13,1056.27,1074610.87,237.68,4.28
+markov,Meta Retargeting,237058.16,829.32,784.8,799906.28,302.06,3.37
+markov,Apple Search Ads,175834.75,289.69,279.47,279409.98,629.17,1.59
+markov,Affiliate,71146.4,238.29,231.04,229840.12,307.94,3.23
+markov,Direct,0.0,954.54,882.78,920680.05,,
+markov,Organic Search,0.0,677.21,643.48,653186.57,,
+markov,Email,0.0,659.9,585.38,636489.93,,
+markov,Referral,0.0,135.3,129.55,130499.92,,
+markov,Unmapped,0.0,20.76,19.65,20019.85,,
+position_based,Google Search Generic,571349.16,688.47,688.47,665082.17,829.88,1.16
+position_based,Meta Prospecting,309559.21,675.95,675.95,647607.85,457.96,2.09
+position_based,Google PMax,280768.34,533.73,533.73,503910.09,526.05,1.79
+position_based,Google Search Brand,251053.56,1131.74,1059.14,1093464.78,237.04,4.36
+position_based,Meta Retargeting,237058.16,693.87,640.67,682453.55,370.02,2.88
+position_based,Apple Search Ads,175834.75,278.29,278.29,263784.21,631.83,1.5
+position_based,Affiliate,71146.4,324.27,324.27,301032.81,219.4,4.23
+position_based,Direct,0.0,935.98,828.38,909770.48,,
+position_based,Organic Search,0.0,659.33,643.53,630109.71,,
+position_based,Email,0.0,596.22,465.82,598855.53,,
+position_based,Referral,0.0,157.2,157.2,143818.0,,
+position_based,Unmapped,0.0,17.94,17.54,15689.83,,
+time_decay,Google Search Generic,571349.16,612.85,612.85,589724.17,932.29,1.03
+time_decay,Meta Prospecting,309559.21,521.42,521.42,496277.53,593.69,1.6
+time_decay,Google PMax,280768.34,517.32,517.32,491344.48,542.74,1.75
+time_decay,Google Search Brand,251053.56,1231.57,1158.75,1190422.17,216.66,4.74
+time_decay,Meta Retargeting,237058.16,810.37,757.16,795121.27,313.09,3.35
+time_decay,Apple Search Ads,175834.75,267.15,267.15,252841.1,658.2,1.44
+time_decay,Affiliate,71146.4,288.14,288.14,265869.21,246.92,3.74
+time_decay,Direct,0.0,1012.47,905.98,984016.69,,
+time_decay,Email,0.0,658.09,527.22,655469.64,,
+time_decay,Organic Search,0.0,627.94,611.83,601228.66,,
+time_decay,Referral,0.0,127.09,127.09,116766.25,,
+time_decay,Unmapped,0.0,18.6,18.1,16497.82,,

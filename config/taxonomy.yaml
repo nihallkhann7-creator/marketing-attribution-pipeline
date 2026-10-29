@@ -1,0 +1,79 @@
+# Channel taxonomy: ordered rules, first match wins.
+#
+# Every session (from UTM parameters) and every ad-spend row (from the ad platform)
+# is resolved to exactly one channel. Matching runs on *normalised* values:
+# lower-case, trimmed, and with spaces / hyphens / pipes collapsed to "_".
+#
+# Each rule can test `source`, `medium` and `campaign` with a regular expression.
+# A field that is left out matches anything.
+
+platform_sources:
+  # Ad-platform name in the spend export -> the UTM source that platform sends
+  "Google Ads": google
+  "Meta Ads": facebook
+  "Apple Search Ads": apple
+  "Affiliate Network": partner
+
+rules:
+  - channel: Google Search Brand
+    paid: true
+    source: '^google$'
+    medium: '^(cpc|ppc|paid)$'
+    campaign: '^gs_brand'
+
+  - channel: Google PMax
+    paid: true
+    source: '^google$'
+    medium: '^(cpc|ppc|paid)$'
+    campaign: 'pmax'
+
+  - channel: Google Search Generic
+    paid: true
+    source: '^google$'
+    medium: '^(cpc|ppc|paid)$'
+    campaign: '^gs_'
+
+  - channel: Meta Retargeting
+    paid: true
+    source: '^(facebook|meta|instagram|fb|ig)$'
+    campaign: '(retarget|rtg|remarketing)'
+
+  - channel: Meta Prospecting
+    paid: true
+    source: '^(facebook|meta|instagram|fb|ig)$'
+    campaign: '^meta_prospecting'
+
+  - channel: Apple Search Ads
+    paid: true
+    source: '^apple$'
+    campaign: '^asa_'
+
+  - channel: Affiliate
+    paid: true
+    medium: '^affiliate$'
+    campaign: '^aff_'
+
+  - channel: Affiliate
+    paid: true
+    source: '^partner$'
+    campaign: '^aff_'
+
+  - channel: Email
+    paid: false
+    medium: '^(email|newsletter|crm)$'
+
+  - channel: Organic Search
+    paid: false
+    medium: '^organic$'
+
+  - channel: Referral
+    paid: false
+    medium: '^referral$'
+
+  - channel: Direct
+    paid: false
+    source: '^(\(direct\)|direct)$'
+
+fallback:
+  channel: Unmapped
+  paid: false

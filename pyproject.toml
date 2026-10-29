@@ -1,0 +1,13 @@
+[project]
+name = "marketing-attribution-pipeline"
+version = "1.0.0"
+description = "Multi-touch marketing attribution pipeline (rule-based + Markov) on synthetic D2C data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Nihal Khan" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
